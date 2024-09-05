@@ -112,7 +112,7 @@ func isCryptoLibFips() *SystemReport {
 		}
 		defer lib.Close()
 
-		_, err = lib.GetSymbolPointer("FIPS_mode")
+		_, err = lib.GetSymbolPointer("EVP_default_properties_is_fips_enabled")
 		if err != nil {
 			libsErr = fmt.Errorf("%s is not FIPS-capable %w", cryptoLibs[i], err)
 			continue
