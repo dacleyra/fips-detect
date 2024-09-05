@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/acardace/fips-detect/pkg/fips"
+	"github.com/dacleyra/fips-detect/pkg/fips"
 	"github.com/spf13/cobra"
 )
 

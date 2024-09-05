@@ -1,6 +1,6 @@
 package main
 
-import "github.com/acardace/fips-detect/cmd"
+import "github.com/dacleyra/fips-detect/cmd"
 
 func main() {
 	cmd.Execute()
