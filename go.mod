@@ -1,4 +1,4 @@
-module github.com/acardace/fips-detect
+module github.com/dacleyra/fips-detect
 
 go 1.16
 
